@@ -2,7 +2,12 @@ language: node_js
 before_script: npm install -g npm@latest
 node_js:
 node_js:
+  - "15"
+  - "14"
+  - "12"
   - "10"
   - "8"
-  - "6"
-  - "11"
+
+arch:
+  - amd64
+  - ppc64le
